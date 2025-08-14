@@ -29,7 +29,7 @@
             width: 90%;
             max-width: 1000px;
             margin: 30px auto;
-            text-align: center; /* Hier bleibt es zentriert, da alles im Container */
+            text-align: center; /* bleibt zentriert für Überschrift etc. */
             background: rgba(20, 20, 20, 0.75);
             padding: 40px 30px;
             border-radius: 20px;
@@ -109,12 +109,12 @@
             filter: invert(0%);
         }
 
-        /* Abschnitt für ausführlichen Text */
+        /* Abschnitt für ausführlichen Text, linksbündig */
         .about-me {
             margin-top: 30px;
             font-size: 1.1em;
             line-height: 1.6;
-            text-align: justify;
+            text-align: left; /* Hier wird der Text linksbündig */
             color: #cccccc;
         }
 
@@ -155,15 +155,12 @@
 <body>
 
     <div class="container">
-        <!-- Überschrift -->
 
-    
 
         <!-- Profilbild -->
         <img src="img/der2gamer.jpg" alt="der2gamer Profilbild" class="profile-pic" />
-
-        <h1 class="title">der2gamer</h1>
-        <!-- Buttons & Verlinkungen nochmal direkt unter dem Profilbild -->
+<h1 class="title">der2gamer</h1>
+        <!-- Buttons & Verlinkungen nochmal unter dem Profilbild -->
         <div class="social-links">
             <a href="https://x.com/der2gamer" target="_blank" class="icon-button" title="X (Twitter)">
                 <img src="https://simpleicons.org/icons/x.svg" alt="X Logo" />
@@ -179,13 +176,13 @@
             </a>
         </div>
 
-         <!-- Discord Informationen -->
+           <!-- Discord Informationen -->
         <div class="discord-info" style="margin-top:30px;">
             <p>Mein Discord User: <strong>der2gamer</strong></p>
             <a href="https://discord.gg/nDy2UDnj" class="cta-button" target="_blank">Trete meinem Server bei</a>
         </div>
 
-        <!-- Umfangreicher Text (ca. 1000 Wörter) -->
+        <!-- Umfangreicher Text (links ausgerichtet) -->
         <div class="about-me">
             <h2>Über mich:</h2>
             <p>
@@ -194,11 +191,8 @@
             <p>
                 Meine Reise begann vor einigen Jahren, als ich die ersten Spiele entdeckte, die meine Welt auf den Kopf stellten. Es waren Spiele, die mich herausforderten, die mich zum Nachdenken brachten, und die mich gleichzeitig unendlich viel Spaß bereiteten. Mit der Zeit entwickelte ich eine Leidenschaft dafür, meine Erfahrungen, Tipps und Tricks zu teilen. Ich begann, Videos zu machen, Livestreams zu starten und meine Erlebnisse auf verschiedenen Plattformen zu posten. Das Feedback war überwältigend positiv, und ich wusste, dass ich auf dem richtigen Weg bin.
             </p>
-            <!-- Weitere Absätze hier... (wie im ursprünglichen Text) -->
-            <!-- (Der vollständige Text würde hier fortgesetzt werden, wie im vorherigen Beispiel) -->
+            <!-- Weitere Absätze hier... -->
         </div>
-
-        
     </div>
 
 </body>
